@@ -1,3 +1,4 @@
+# Hata yakalama örneği - Kullanıcıdan yaş bilgisi alma
 yas = input("Lütfen yaşınızı giriniz: ")
 try :
     yas = int(yas)
@@ -7,4 +8,3 @@ try :
         print("Yaşınız:", yas)
 except ValueError:
     print("Hata: Lütfen geçerli bir sayı giriniz.")
-# Hata yakalama örneği - Kullanıcıdan yaş bilgisi alma
