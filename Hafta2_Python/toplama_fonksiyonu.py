@@ -1,4 +1,4 @@
-#iki_sayiyi_toplayan_fonksiyon
+#Kullanıcı tarafından girilen iki sayıyı toplayan fonksiyon
 def toplama(a, b):
     """
     İki sayıyı toplayan fonksiyon.
@@ -10,3 +10,4 @@ Sayi2 = int(input("İkinci sayıyı giriniz: "))
 x = toplama(Sayi1, Sayi2)
 
 print("Toplam:", x)
+
